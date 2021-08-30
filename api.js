@@ -17,5 +17,5 @@ const displayTemp=(data)=>{
     displayTemp.innerText =parseFloat(data.main.temp - 273.15).toFixed(2) ;
     const weather=document.getElementById("weather");
     weather.innerText =data.weather[0].main;
-     console.log(data.name,parseFloat(data.main.temp - 273.15).toFixed(2),data.weather[0].main)
+     
 }
